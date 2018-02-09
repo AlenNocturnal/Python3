@@ -25,5 +25,5 @@ def make_incrementor(n):
     return lambda x: x + n
 
 f = make_incrementor(42)
-f(14)
+print(f(14))
 ask_ok('OK to overwrite the file?', 2, 'Come on, only yes or no!')
